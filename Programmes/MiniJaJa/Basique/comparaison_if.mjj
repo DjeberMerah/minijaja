@@ -1,0 +1,49 @@
+class C {
+  int value = 5;
+  
+  main
+  {
+  	int data = 3;
+  	int sum = 0;
+  	boolean b = false;
+  	
+  	if (value > 0) {
+  		data++;
+  	};
+  	
+  	if (data > 0) {
+  		value = value - 1;
+  	};
+  	
+  	if (data == value) {
+  		sum = value + data; //Sum = 8
+  		b = true;
+  	};
+  	
+  	if (b && (sum > 0))
+  	{
+  		value = 0;
+  	};
+  	
+  	if (!b || (sum == 0))
+  	{
+  		data = 0;
+  	};
+
+  	print(sum);
+  	print(data);
+  	print(value);
+  	
+  	
+  	// Resultat attendu : 
+  	// sum = 8
+  	// data = 4
+  	// value = 0
+  	
+  	
+  	
+  }
+  
+}
+
+

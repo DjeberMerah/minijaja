@@ -1,0 +1,18 @@
+class C {
+  int tab[3];
+  boolean tab2[2];
+  
+  main
+  {
+  	tab[0] = 1;
+  	tab[1] = 2;
+  	tab[2] = 3;
+  	
+  	tab2[0] = true;
+  	tab2[1] = false;
+  }
+  
+}
+
+
+	

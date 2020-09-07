@@ -1,0 +1,11 @@
+class fail_function{
+
+	int functionName ()
+	{
+		return 5;
+
+	main
+	{
+		int nombre = 5;
+	}
+}

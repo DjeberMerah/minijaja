@@ -1,0 +1,7 @@
+class fail{
+	
+	main
+	{
+		inexistantType inexistant = 5;
+	}
+}

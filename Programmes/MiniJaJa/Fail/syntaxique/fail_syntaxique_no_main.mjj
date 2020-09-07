@@ -1,0 +1,4 @@
+class fail_function{
+
+	int nombre = 0;
+}

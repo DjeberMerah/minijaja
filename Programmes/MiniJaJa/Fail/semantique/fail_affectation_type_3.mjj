@@ -1,0 +1,8 @@
+class fail{
+	
+	main
+	{
+		boolean b = false;
+		int nombre = b;
+	}
+}

@@ -1,0 +1,31 @@
+class C {
+  int tab[3];
+  int x;
+  int y;
+  int z;
+  
+  main
+  {
+	int val;
+
+  	tab[0] = 10;
+  	tab[1] = tab[0] + 10;
+  	tab[2] = tab[1] + 10;
+  	
+  	x = tab[0] * tab[1]; //x = 10 * 20
+  	y = x - tab[2]; // y = 200 - 30
+  	z = y / tab[0]; // z = 170 / 10
+  	
+  	
+  	tab[0] = x; // tab[0] = 200
+  	tab[1] = y; // tab[1] = 170
+  	tab[2] = z; // tab[2] = 17
+  	
+  	val = tab[0] - tab[1];
+  	
+  }
+  
+}
+
+
+	

@@ -1,0 +1,24 @@
+class C {
+  int value = 5;
+  
+  main
+  {
+  	int data = 1;
+  	int count = value;
+  	
+  	while (count > 1)
+  	{
+  		data = data * count;
+  		count = count - 1;
+  	
+  	};
+  	
+  	//data = 1 * 2 *3 *4 *5 = 120
+
+  	print(data);
+  	
+  	
+  }
+  
+}
+

@@ -1,0 +1,18 @@
+class C {
+  int y = 10;
+  int x;
+  
+  main
+  {
+	print(y);
+
+ 	x = 15;
+  	y = x;
+
+	print(y);
+  }
+  
+}
+
+
+	

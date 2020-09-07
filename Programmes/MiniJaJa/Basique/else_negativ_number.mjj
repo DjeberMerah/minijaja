@@ -1,0 +1,42 @@
+class C {
+  int value = 5;
+  
+  main
+  {
+  	int data = 0;
+    boolean result;
+  	if ( value > 0)
+  	{
+  		data = data - (value * 2);
+  	};
+  	if (data == -5)
+  	{
+  		result = true;
+  		data += 1;
+  	}
+  	else
+  	{
+  		result = false;
+  	};
+  	
+  	if (data == -5)
+  	{
+  		data += 1;
+  	}
+  	else
+  	{
+  		data = 0;
+  	};
+  	
+  	
+  	// Résultat attendu : 
+  	// Value = 5
+  	// data = 0
+  	// result = false;
+  	print(value);
+	print(data);
+	print(result);
+  }
+  
+}
+

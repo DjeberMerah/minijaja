@@ -1,0 +1,11 @@
+class fail_function{
+
+
+	main
+	{
+		int nombre = 5 + ;
+		int nombre1 = 4 - ;
+		int nombre2 = 3 / ;
+		int nombre3 = 2 * ;
+	}
+} 

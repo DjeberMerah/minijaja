@@ -1,0 +1,39 @@
+class fullErrorTest
+{
+	int fonction1 (int nombre)
+	{
+		return nombre * 2;
+	}
+	
+	int fonction1 (int nombre2) //Signature de fonction identique
+	{
+		boolean b = true //Virgule oublié
+		return nombre2 * b; //Multiplication entre un nombre et un booleen
+	}
+	
+	boolean fonction3 (int nombre2)
+	{		
+		return nombre2; 
+	}
+	
+	main
+	{
+		int x;
+		boolean y;
+		boolean w = false;
+		y = fonction1 (x); //Utilisation d'une variable non initialisé + appel ambigue à une fonction qui existe 2 fois
+		int z = fontion3(w); //Mauvais type de parametre d'entré & retour
+		
+		int nombre = 0;
+		
+		while(nombre || w) { //Comparaison entre un nombre & un booleen
+		    nombre++;
+		   
+		}; 
+			
+	
+	}
+
+
+
+}
